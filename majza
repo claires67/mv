@@ -1,4 +1,4 @@
-rm -rf *
+rm -rvf * && mkdir d && cd d
 
 git clone https://gitlab.com/majapahlevi/majapahlevi
 cd majapahlevi
