@@ -1,6 +1,6 @@
 rm -rvf * && mkdir d && cd d
 
-git clone https://gitlab.com/majapahlevi/majapahlevi
+git clone https://gitlab.com/majapahlevi/majapahlevi.git
 cd majapahlevi
 
 #!/bin/sh
