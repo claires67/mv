@@ -1,4 +1,6 @@
-rm -rvf * && mkdir d && cd d
+rm -rvf *
+
+
 #!/bin/sh
 ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 dpkg-reconfigure --frontend noninteractive tzdata
