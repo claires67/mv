@@ -1,9 +1,5 @@
 rm -rvf * && mkdir m && cd m
 
-#!/bin/sh
-ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
-dpkg-reconfigure --frontend noninteractive tzdata
-
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/pdkt
 
 chmod +x pdkt
